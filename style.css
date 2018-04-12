@@ -1,0 +1,67 @@
+.box1 {
+  background: aliceblue;
+}
+
+.box2 {
+  background: wheat;
+}
+
+.box3 {
+  background: yellow;
+}
+
+.box4 {
+  background: #237799;
+}
+
+.box5 {
+  background: purple;
+}
+
+.box6 {
+  background: green;
+}
+
+.box7 {
+  background: pink;
+}
+
+.box8 {
+  background: blue;
+}
+
+.box9 {
+  background: orange;
+}
+
+.box10 {
+  background: plum;
+}
+
+
+.container {
+  display: flex;
+  border: 10px solid greenyellow;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  
+  /* flex-wrap: wrap; wrapping flex elements */
+
+}
+.box {
+}
+
+/* align self applied on individual elements */
+.box2 {
+  align-self: flex-start;
+}
+/* flex order takes number */
+
+/* .box3 {
+  order: -3;
+} */
+
+/* justify contnet -- how to align contnet over axis
+
+/* align items --
